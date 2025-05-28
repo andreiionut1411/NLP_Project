@@ -14,7 +14,7 @@ After the docker is running you can start indexing each file individually. You s
 
 ## Retrieving the data
 
-For testing the RAG, you can use the `rag.py` script. You should add your api key to the script and modify the variables from the script to make different testing setups.
+For testing the RAG, you can use the `rag.py` or the `rag_colbert.py` script. You should add your api key to the script and modify the variables from the script to make different testing setups.
 
 The most important part in terms of how to run the code is the line:
 
