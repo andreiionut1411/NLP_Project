@@ -83,7 +83,7 @@ llm = ChatOpenAI(
 
 retriever = store.as_retriever(search_kwargs={"k": NUM_OF_RETRIEVED_CHUNKS})
 
-RERANKER_TYPE = "colbert"  # Options: "colbert", "cross_encoder", "real_colbert"
+RERANKER_TYPE = "colbert" # Change to "none" for no reranking, or "colbert" for ColBERT reranking
 
 if RERANKER_TYPE == "colbert":
     reranker = ColBERTReranker(model_name="colbert-ir/colbertv2.0")
