@@ -42,7 +42,21 @@ In the indexing subfolder of the poisoning part you have multiple interesting sc
 
 The clean_html.py script cleans the raw Wikipedia pages. After they are cleaned, you should run split.py which splits the texts into files of 15000 Wikipedia pages. Then you can use the index.py script to start indexing the pages. You should run this script for each file with Wikipedia pages. The original dataset was split into multiple parts so that in case the indexing fails, you don't need to start from the begining.
 
+## RAG Iterative Refinement
+### FActScore metric
+Inside metrics/FActScore, run:
+`conda create -n fs-env python=3.9`
+`conda activate fs-env`
+`pip install -r requirements.txt`
 
+### AlignScore metric
+Inside metrics/AlignScoreHF, run:
+`python3 -m venv ./ASvenv`
+`source ./ASvenv/bin/activate`
+`pip install -r requirements`
+
+Before running  ensemble_retriggering.py, replace the python paths for both metrics with the ones created above
+`python3 ensemble_retriggering.py`
 ## References
 
 @article{zou2024poisonedrag,
