@@ -1,0 +1,5 @@
+{"title": "Introduction to Machine Learning", "text": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to learn from data."}
+{"title": "Deep Learning Overview", "text": ["Deep learning is a subset of machine learning.", "It uses neural networks with many layers.", "Applications include image and speech recognition."]}
+{"title": "Random Forest Algorithm", "text": "Random Forest is an ensemble learning method used for classification and regression tasks by constructing multiple decision trees during training."}
+{"title": "Gradient Boosting Machines", "text": ["Gradient Boosting is a machine learning technique for regression and classification problems.", "It builds models sequentially to correct the errors of the previous models."]}
+{"title": "Data Preprocessing Techniques", "text": ["Normalization and standardization are common preprocessing steps.", "Missing data handling and categorical encoding are also essential."]}
